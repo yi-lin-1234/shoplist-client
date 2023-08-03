@@ -16,7 +16,7 @@ root.render(
       domain={domain}
       clientId={clientId}
       authorizationParams={{
-        redirect_uri: "http://localhost:3000/dashboard",
+        redirect_uri: "https://inspiring-squirrel-e515f6.netlify.app/dashboard",
         audience: "8707129838",
       }}
     >
