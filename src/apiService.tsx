@@ -8,7 +8,7 @@ import { Body } from "./type";
 
 //prod
 const instance = axios.create({
-  baseURL: "https://expressjs-server-production-4c10.up.railway.app",
+  baseURL: "https://expressjs-server-production-4c10.up.railway.app/",
 });
 
 //==============================( POST )==============================
