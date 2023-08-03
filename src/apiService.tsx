@@ -2,14 +2,14 @@ import axios from "axios";
 import { Body } from "./type";
 
 //dev
-const instance = axios.create({
-  baseURL: "http://localhost:8000",
-});
+// const instance = axios.create({
+//   baseURL: "http://localhost:8000",
+// });
 
 //prod
-// const instance = axios.create({
-//   baseURL: "https://todolist-server-railway-production.up.railway.app",
-// });
+const instance = axios.create({
+  baseURL: "https://expressjs-server-production-4c10.up.railway.app",
+});
 
 //==============================( POST )==============================
 
